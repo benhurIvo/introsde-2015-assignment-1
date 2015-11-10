@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<people>
+    <person id="0001">
+        <firstname>Roberto</firstname>
+        <lastname>Rutter</lastname>
+        <birthdate>1972-11-02T12:09:41.111+03:00</birthdate>
+        <healthprofile>
+            <lastupdate>2007-06-28T12:09:41.119+03:00</lastupdate>
+            <weight>95.79</weight>
+            <height>1.661</height>
+            <bmi>34.72</bmi>
+        </healthprofile>
+    </person>
+    <person id="0002">
+        <firstname>Gwenda</firstname>
+        <lastname>Garlick</lastname>
+        <birthdate>1977-07-15T12:09:41.129+03:00</birthdate>
+        <healthprofile>
+            <lastupdate>2004-05-12T12:09:41.129+03:00</lastupdate>
+            <weight>131.39</weight>
+            <height>1.263</height>
+            <bmi>82.37</bmi>
+        </healthprofile>
+    </person>
+    <person id="0003">
+        <firstname>Kareen</firstname>
+        <lastname>Klapper</lastname>
+        <birthdate>1972-01-26T12:09:41.131+03:00</birthdate>
+        <healthprofile>
+            <lastupdate>2011-08-12T12:09:41.132+03:00</lastupdate>
+            <weight>118.8</weight>
+            <height>1.22</height>
+            <bmi>79.82</bmi>
+        </healthprofile>
+    </person>
+    <person id="0004">
+        <firstname>Izetta</firstname>
+        <lastname>Iversen</lastname>
+        <birthdate>1992-07-25T12:09:41.133+03:00</birthdate>
+        <healthprofile>
+            <lastupdate>2010-03-21T12:09:41.133+03:00</lastupdate>
+            <weight>55.19</weight>
+            <height>1.327</height>
+            <bmi>31.34</bmi>
+        </healthprofile>
+    </person>
+    <person id="0005">
+        <firstname>Nicolette</firstname>
+        <lastname>Neyman</lastname>
+        <birthdate>1975-11-10T12:09:41.134+03:00</birthdate>
+        <healthprofile>
+            <lastupdate>2010-04-11T12:09:41.135+03:00</lastupdate>
+            <weight>111.64</weight>
+            <height>1.546</height>
+            <bmi>46.71</bmi>
+        </healthprofile>
+    </person>
+</people>
