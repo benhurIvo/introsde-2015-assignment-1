@@ -103,7 +103,7 @@
 		<xjc schema="people.xsd" destdir="${src.dir}" package="${xjc.package}" />
 	</target>
 
-	<target name="execute.evaluation" depends="init, generate">
+	<target name="compile" depends="init, generate">
 		<echo message="Compile target has been called" />
 		<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="lib.path.id" includeAntRuntime="false">
 		</javac>
@@ -163,4 +163,9 @@
 			</classpath>
 		</java>
 	</target>
+	
+	<target name="execute.evaluation" depends="compile, execute.HPReader, execute.JAXBMarshaller, execute.JAXBUnMarshaller, execute.HPJson">
+<echo message="Executing Evaluation: produced all output displayed above." />
+
+</target> 
 </project>
